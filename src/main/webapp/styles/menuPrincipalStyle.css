@@ -1,0 +1,85 @@
+body {
+    background-color: #556B2F; /* Fondo de página verde oliva */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #8FBC8F; /* Fondo del contenedor en un tono más suave */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.menu-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+img {
+    max-width: 50%;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.menu-buttons {
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #38913b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.btn-exit {
+    display: inline-block;
+    color: white;
+    background-color: #f3370d; /* Color rojo */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-exit:hover {
+    background-color: #E74C3C; /* Color rojo más oscuro */
+}
+
+input {
+    background-color: #38913b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
